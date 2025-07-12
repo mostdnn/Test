@@ -18,11 +18,7 @@ public class BaseTest {
         // Automatically download and set up ChromeDriver
 //        WebDriverManager.chromedriver().setup();
         // Now you can initialize the WebDriver
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("https://masarat-transport.com/en");
-        // Set full-screen mode
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
 
     }
 }
